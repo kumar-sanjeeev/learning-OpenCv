@@ -19,7 +19,7 @@ OpenCV provides four main types of blurring techniques.
 
 # --> Averaging
 # --> Gaussian Blurring
-# --> Median Blurring
+# --> Median Blurring  ----> It will not blur the edges of the images
 # --> Bilateral Filtering
 
 # -------------<Now we will learn Gaussian blurring>--------------------
@@ -56,7 +56,7 @@ cv.imshow('Eroeded',eroded)
 
 """
 Resize the image
---> Done without taling care of aspect ratio
+--> Done without taking care of aspect ratio
 
   # Bydefault cv.INTER_AREA interpolation will run when new size is smaller than original image
   # Use cv.INTER_LINEAR /cv.INTER_CUBIC when you try to enlarge the image to much greater size

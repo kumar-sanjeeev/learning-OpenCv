@@ -10,11 +10,9 @@ img = np.zeros((500,500,3), dtype='uint8')
 # cv.imshow('Rectangle', img)
 
 # #Drawing a circle
-
 # cv.circle(img, (250,250), 40, (0,0,255), -1)
 
 # cv.imshow("Figures",img)
-
 # #Draew the white line having thickness 3
 # cv.line(img, (0,0), (250,250), (255,255,255), 3)
 # cv.imshow('More figures', img)
